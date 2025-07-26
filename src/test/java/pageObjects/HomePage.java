@@ -1,0 +1,34 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import testBase.BasePageObjectClass;
+
+public class HomePage extends BasePageObjectClass {
+	public HomePage(WebDriver driver) {
+		super(driver);
+	}
+	
+	
+//	Locators
+	@FindBy(xpath="//a[@title='My Account']") WebElement nav_Reg_Link;
+	@FindBy(xpath="//a[normalize-space()='Register']") WebElement nav_Reg_Btn;
+	@FindBy(xpath="//a[normalize-space()='Login']") WebElement nav_log_Btn;
+	
+	
+//	Actions
+	public void clickMyAccounts() {
+		nav_Reg_Link.click();
+	}
+	
+	public void selectRegistration() {
+		nav_Reg_Btn.click();
+	}
+	
+	public void selectLogin() {
+		nav_log_Btn.click();
+	}
+	
+}

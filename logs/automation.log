@@ -1,0 +1,10 @@
+19:56:02.899 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
+19:56:03.584 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java_Selenium\OpenCart_HybridFramework\master.xml
+
+19:56:08.853 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+19:56:09.590 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+19:56:09.594 [main] INFO  testCases.TC002_LoginTest - Entering Details
+19:56:11.200 [main] INFO  testCases.TC002_LoginTest - Checking Output
+19:56:11.322 [main] INFO  testCases.TC002_LoginTest - Test Pass
+19:56:11.328 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
