@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_LoginDatadrivenTest" class="method navigator-link" hash-for-method="dataDrivenTest(laxmi@gmail.com, laxmi, Invalid)">dataDrivenTest(laxmi@gmail.com, laxmi, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_LoginDatadrivenTest" class="method navigator-link" hash-for-method="dataDrivenTest(barvo@gmail.com, bravo, Invalid)">dataDrivenTest(barvo@gmail.com, bravo, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_LoginDatadrivenTest" class="method navigator-link" hash-for-method="dataDrivenTest(abc123@gmail.com, test@123, Invalid)">dataDrivenTest(abc123@gmail.com, test@123, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +127,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_LoginTest" class="method navigator-link" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_LoginDatadrivenTest" class="method navigator-link" hash-for-method="dataDrivenTest(demo5231@gmail.com, demo5231, valid)">dataDrivenTest(demo5231@gmail.com, demo5231, valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -118,17 +142,65 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC002_LoginTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC003_LoginDatadrivenTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLogin">
-                  </a> <!-- testLogin -->
-                  <span class="method-name">testLogin</span>
+                  <a name="dataDrivenTest(laxmi@gmail.com, laxmi, Invalid)">
+                  </a> <!-- dataDrivenTest(laxmi@gmail.com, laxmi, Invalid) -->
+                  <span class="method-name">dataDrivenTest</span>
+                  <span class="parameters">(laxmi@gmail.com,laxmi,Invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_LoginDatadrivenTest.dataDrivenTest(TC003_LoginDatadrivenTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataDrivenTest(barvo@gmail.com, bravo, Invalid)">
+                  </a> <!-- dataDrivenTest(barvo@gmail.com, bravo, Invalid) -->
+                  <span class="method-name">dataDrivenTest</span>
+                  <span class="parameters">(barvo@gmail.com,bravo,Invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_LoginDatadrivenTest.dataDrivenTest(TC003_LoginDatadrivenTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataDrivenTest(abc123@gmail.com, test@123, Invalid)">
+                  </a> <!-- dataDrivenTest(abc123@gmail.com, test@123, Invalid) -->
+                  <span class="method-name">dataDrivenTest</span>
+                  <span class="parameters">(abc123@gmail.com,test@123,Invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_LoginDatadrivenTest.dataDrivenTest(TC003_LoginDatadrivenTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC003_LoginDatadrivenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataDrivenTest(demo5231@gmail.com, demo5231, valid)">
+                  </a> <!-- dataDrivenTest(demo5231@gmail.com, demo5231, valid) -->
+                  <span class="method-name">dataDrivenTest</span>
+                  <span class="parameters">(demo5231@gmail.com,demo5231,valid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -145,9 +217,9 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;window&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC002_LoginTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC003_LoginDatadrivenTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -187,16 +259,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLogin')
-data.setCell(0, 2, 'testCases.TC002_LoginTest')
-data.setCell(0, 3, 2544);
+data.setCell(0, 1, 'dataDrivenTest')
+data.setCell(0, 2, 'testCases.TC003_LoginDatadrivenTest')
+data.setCell(0, 3, 11658);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dataDrivenTest')
+data.setCell(1, 2, 'testCases.TC003_LoginDatadrivenTest')
+data.setCell(1, 3, 11318);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dataDrivenTest')
+data.setCell(2, 2, 'testCases.TC003_LoginDatadrivenTest')
+data.setCell(2, 3, 2968);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'dataDrivenTest')
+data.setCell(3, 2, 'testCases.TC003_LoginDatadrivenTest')
+data.setCell(3, 3, 2587);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -222,18 +306,36 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC002_LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC003_LoginDatadrivenTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(Chrome, window)</span>
+                <span class="method-name">setUp(edge, window)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testLogin</span>
-                <span class="method-start">5116 ms</span>
+                <span class="method-name">dataDrivenTest(demo5231@gmail.com, demo5231, valid)</span>
+                <span class="method-start">5496 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dataDrivenTest(laxmi@gmail.com, laxmi, Invalid)</span>
+                <span class="method-start">8470 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dataDrivenTest(barvo@gmail.com, bravo, Invalid)</span>
+                <span class="method-start">20133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dataDrivenTest(abc123@gmail.com, test@123, Invalid)</span>
+                <span class="method-start">31455 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7671 ms</span>
+                <span class="method-start">34046 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

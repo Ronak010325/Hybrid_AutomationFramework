@@ -16,6 +16,7 @@ public class HomePage extends BasePageObjectClass {
 	@FindBy(xpath="//a[@title='My Account']") WebElement nav_Reg_Link;
 	@FindBy(xpath="//a[normalize-space()='Register']") WebElement nav_Reg_Btn;
 	@FindBy(xpath="//a[normalize-space()='Login']") WebElement nav_log_Btn;
+	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']") WebElement nav_logout_Btn;
 	
 	
 //	Actions
@@ -29,6 +30,10 @@ public class HomePage extends BasePageObjectClass {
 	
 	public void selectLogin() {
 		nav_log_Btn.click();
+	}
+	
+	public void selectLogout() {
+		nav_logout_Btn.click();
 	}
 	
 }
