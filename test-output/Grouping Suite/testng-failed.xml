@@ -9,18 +9,17 @@
     <parameter name="browser" value="edge"/>
     <groups>
       <run>
-        <include name="Sanity"/>
-        <include name="Regression"/>
+        <include name="Master"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest">
+      <class name="testCases.TC002_LoginTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testReg"/>
+          <include name="testLogin"/>
         </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      </class> <!-- testCases.TC002_LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Grouping Suite] -->

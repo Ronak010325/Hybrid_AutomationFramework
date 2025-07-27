@@ -9,8 +9,8 @@
   	<parameter name="os" value="window"/>
     <classes>
       <!-- <class name="testCases.TC001_AccountRegistrationTest"/> -->
-      <!-- <class name="testCases.TC002_LoginTest"/> -->
-      <class name="testCases.TC003_LoginDatadrivenTest"/>
+      <class name="testCases.TC002_LoginTest"/>
+      <!-- <class name="testCases.TC003_LoginDatadrivenTest"/> -->
     </classes>	
   </test>
 </suite>
