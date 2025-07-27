@@ -1,14 +1,19 @@
 package testBase;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 //Logger Package from apache  core
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -18,10 +23,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 public class BaseTestcaseClass {
-	public WebDriver driver;
+	public static WebDriver driver;
 	public Logger logger;
 	public Properties prop;
-	@BeforeClass
+	@BeforeClass(groups= {"Sanity","Regression","Datadriven","Master"})
 	@Parameters({"browser","os"})
 	public void setUp(String browser, String os) throws IOException {
 //		Loading Properties File
@@ -51,9 +56,9 @@ public class BaseTestcaseClass {
 		String appUrl = prop.getProperty("appurl"); 
 		driver.get(appUrl);
 	}
-	@AfterClass
+	@AfterClass(groups= {"Sanity","Regression","Datadriven","Master"})
 	public void tearDown() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		driver.quit();
 	}
 	public String randomString() {
@@ -64,5 +69,19 @@ public class BaseTestcaseClass {
 	}
 	public String randomPass() {
 		return RandomStringUtils.randomAlphabetic(5)+"#"+RandomStringUtils.randomNumeric(5);
+	}
+	
+	public String captureScreen(String fileName) {
+		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		
+		TakesScreenshot ss = (TakesScreenshot) driver; 
+		File input = ss.getScreenshotAs(OutputType.FILE);
+
+		String outputPath = System.getProperty("user.dir")+"\\screenshots\\"+fileName+"_"+timeStamp+".png";
+		File output = new File(outputPath);
+		
+		input.renameTo(output);
+		
+		return outputPath;
 	}
 }

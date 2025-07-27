@@ -9,7 +9,7 @@ import pageObjects.MyaccountPage;
 import testBase.BaseTestcaseClass;
 
 public class TC002_LoginTest extends BaseTestcaseClass {
-	@Test
+	@Test(groups={"Sanity","Master"})
 	public void testLogin() {
 		logger.info("****Starting TC002_LoginTest****");
 //		Home Page

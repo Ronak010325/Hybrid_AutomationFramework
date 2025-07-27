@@ -7,7 +7,7 @@ import pageObjects.RegistrationPage;
 import testBase.BaseTestcaseClass;
 
 public class TC001_AccountRegistrationTest extends BaseTestcaseClass {
-	@Test
+	@Test(groups={"Regression","Master"})
 	public void testReg() throws InterruptedException {
 		try {
 			logger.info("**** Starting TC001_AccountRegistrationTest****");

@@ -1,0 +1,62 @@
+13:07:20.936 [main] ERROR testCases.TC003_LoginDatadrivenTest - Invalid Credentials
+13:07:20.938 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Finished TC003_LoginDatadrivenTest****
+13:07:21.075 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Starting TC003_LoginDatadrivenTest****
+13:07:21.523 [main] INFO  testCases.TC003_LoginDatadrivenTest - Opening Login Page
+13:07:21.524 [main] INFO  testCases.TC003_LoginDatadrivenTest - Entering Details
+13:07:21.847 [main] INFO  testCases.TC003_LoginDatadrivenTest - Checking Output
+13:07:32.396 [main] ERROR testCases.TC003_LoginDatadrivenTest - Invalid Credentials
+13:07:32.397 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Finished TC003_LoginDatadrivenTest****
+13:07:32.507 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Starting TC003_LoginDatadrivenTest****
+13:07:32.914 [main] INFO  testCases.TC003_LoginDatadrivenTest - Opening Login Page
+13:07:32.914 [main] INFO  testCases.TC003_LoginDatadrivenTest - Entering Details
+13:07:33.952 [main] INFO  testCases.TC003_LoginDatadrivenTest - Checking Output
+13:07:33.989 [main] INFO  testCases.TC003_LoginDatadrivenTest - Test Pass
+13:07:34.992 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Finished TC003_LoginDatadrivenTest****
+13:15:39.409 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\grouping.xml"
+13:15:39.820 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java_Selenium\OpenCart_HybridFramework\grouping.xml
+
+13:15:43.997 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Starting TC001_AccountRegistrationTest****
+13:15:44.151 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked in Register Btn
+13:15:44.584 [main] INFO  testCases.TC001_AccountRegistrationTest - Passing Details
+13:15:51.437 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Message
+13:15:51.488 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Finished TC001_AccountRegistrationTest****
+13:15:59.547 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+13:16:00.015 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+13:16:00.020 [main] INFO  testCases.TC002_LoginTest - Entering Details
+13:16:00.554 [main] INFO  testCases.TC002_LoginTest - Checking Output
+13:16:10.600 [main] ERROR testCases.TC002_LoginTest - Invalid Credentials
+13:17:15.227 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\grouping.xml"
+13:17:15.619 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java_Selenium\OpenCart_HybridFramework\grouping.xml
+
+13:17:19.634 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Starting TC001_AccountRegistrationTest****
+13:17:19.792 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked in Register Btn
+13:17:20.243 [main] INFO  testCases.TC001_AccountRegistrationTest - Passing Details
+13:17:27.040 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Message
+13:17:27.092 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Finished TC001_AccountRegistrationTest****
+13:17:35.015 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+13:17:35.483 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+13:17:35.484 [main] INFO  testCases.TC002_LoginTest - Entering Details
+13:17:35.956 [main] INFO  testCases.TC002_LoginTest - Checking Output
+13:17:36.830 [main] INFO  testCases.TC002_LoginTest - Test Pass
+13:17:36.830 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+13:19:13.329 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\grouping.xml"
+13:19:13.735 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java_Selenium\OpenCart_HybridFramework\grouping.xml
+
+13:20:01.656 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+13:20:02.591 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+13:20:02.596 [main] INFO  testCases.TC002_LoginTest - Entering Details
+13:20:03.008 [main] INFO  testCases.TC002_LoginTest - Checking Output
+13:20:06.473 [main] INFO  testCases.TC002_LoginTest - Test Pass
+13:20:06.476 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+13:20:45.904 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\grouping.xml"
+13:20:46.314 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java_Selenium\OpenCart_HybridFramework\grouping.xml
+
+13:20:50.075 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Starting TC001_AccountRegistrationTest****
+13:20:50.231 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked in Register Btn
+13:20:50.669 [main] INFO  testCases.TC001_AccountRegistrationTest - Passing Details
+13:20:57.526 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Message
+13:20:57.578 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Finished TC001_AccountRegistrationTest****

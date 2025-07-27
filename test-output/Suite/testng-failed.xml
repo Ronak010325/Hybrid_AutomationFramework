@@ -4,14 +4,19 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="window"/>
     <parameter name="browser" value="edge"/>
+    <groups>
+      <run>
+        <include name="Master"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCases.TC003_LoginDatadrivenTest">
+      <class name="testCases.TC001_AccountRegistrationTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="dataDrivenTest" invocation-numbers="1 2 3"/>
+          <include name="testReg"/>
         </methods>
-      </class> <!-- testCases.TC003_LoginDatadrivenTest -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

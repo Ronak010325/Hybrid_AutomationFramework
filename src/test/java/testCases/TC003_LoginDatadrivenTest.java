@@ -11,7 +11,7 @@ import testBase.BaseTestcaseClass;
 import utilities.Dataproviders;
 
 public class TC003_LoginDatadrivenTest extends BaseTestcaseClass {
-	@Test(dataProvider="loginData", dataProviderClass=Dataproviders.class)
+	@Test(dataProvider="loginData", dataProviderClass=Dataproviders.class,groups={"Datadriven"})
 	public void dataDrivenTest(String email, String pass, String valid) {
 		logger.info("****Starting TC003_LoginDatadrivenTest****");
 //		Home Page
