@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-28T14:51:31 IST" name="Master Suite" finished-at="2025-07-28T14:51:44 IST" duration-ms="13345">
+    <groups>
+      <group name="Master">
+        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@1800a575]" name="testLogin" class="testCases.TC002_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@1800a575]" name="testLogin" class="testCases.TC002_LoginTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2025-07-28T14:51:31 IST" name="Test" finished-at="2025-07-28T14:51:44 IST" duration-ms="13345">
+      <class name="testCases.TC002_LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@1800a575]" started-at="2025-07-28T14:51:31 IST" name="setUp" finished-at="2025-07-28T14:51:36 IST" duration-ms="4699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:testCases.TC002_LoginTest@1800a575]" started-at="2025-07-28T14:51:36 IST" name="testLogin" finished-at="2025-07-28T14:51:39 IST" duration-ms="2959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@1800a575]" started-at="2025-07-28T14:51:39 IST" name="tearDown" finished-at="2025-07-28T14:51:44 IST" duration-ms="5155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

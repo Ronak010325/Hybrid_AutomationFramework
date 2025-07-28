@@ -1,4 +1,4 @@
-23:09:20.370 [main] INFO  testCases.TC002_LoginTest - Entering Details
-23:09:22.182 [main] INFO  testCases.TC002_LoginTest - Checking Output
-23:09:22.389 [main] INFO  testCases.TC002_LoginTest - Test Pass
-23:09:22.390 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+14:51:38.271 [main] INFO  testCases.TC002_LoginTest - Entering Details
+14:51:38.834 [main] INFO  testCases.TC002_LoginTest - Checking Output
+14:51:39.639 [main] INFO  testCases.TC002_LoginTest - Test Pass
+14:51:39.644 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****

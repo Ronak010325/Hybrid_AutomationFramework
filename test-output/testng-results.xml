@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-27T23:08:49 IST" name="CrossBrowser Suite" finished-at="2025-07-27T23:09:30 IST" duration-ms="40847">
+  <suite started-at="2025-07-28T12:30:58 IST" name="CrossBrowser Suite" finished-at="2025-07-28T12:31:37 IST" duration-ms="39423">
     <groups>
       <group name="Master">
-        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@6f3c660a]" name="testLogin" class="testCases.TC002_LoginTest"/>
-        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@33fe57a9]" name="testLogin" class="testCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@531f4093]" name="testLogin" class="testCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@22d7b4f8]" name="testLogin" class="testCases.TC002_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@6f3c660a]" name="testLogin" class="testCases.TC002_LoginTest"/>
-        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@33fe57a9]" name="testLogin" class="testCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@531f4093]" name="testLogin" class="testCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@22d7b4f8]" name="testLogin" class="testCases.TC002_LoginTest"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-07-27T23:08:49 IST" name="Test1" finished-at="2025-07-27T23:09:07 IST" duration-ms="17318">
+    <test started-at="2025-07-28T12:30:58 IST" name="Test1" finished-at="2025-07-28T12:31:15 IST" duration-ms="17371">
       <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@6f3c660a]" started-at="2025-07-27T23:08:50 IST" name="setUp" finished-at="2025-07-27T23:08:57 IST" duration-ms="6132" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@531f4093]" started-at="2025-07-28T12:30:58 IST" name="setUp" finished-at="2025-07-28T12:31:07 IST" duration-ms="8347" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,19 +31,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:testCases.TC002_LoginTest@6f3c660a]" started-at="2025-07-27T23:08:57 IST" name="testLogin" finished-at="2025-07-27T23:09:01 IST" duration-ms="4677" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:testCases.TC002_LoginTest@531f4093]" started-at="2025-07-28T12:31:07 IST" name="testLogin" finished-at="2025-07-28T12:31:10 IST" duration-ms="3002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@6f3c660a]" started-at="2025-07-27T23:09:01 IST" name="tearDown" finished-at="2025-07-27T23:09:07 IST" duration-ms="5358" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@531f4093]" started-at="2025-07-28T12:31:10 IST" name="tearDown" finished-at="2025-07-28T12:31:15 IST" duration-ms="5255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC002_LoginTest -->
     </test> <!-- Test1 -->
-    <test started-at="2025-07-27T23:09:09 IST" name="Test2" finished-at="2025-07-27T23:09:30 IST" duration-ms="20902">
+    <test started-at="2025-07-28T12:31:17 IST" name="Test2" finished-at="2025-07-28T12:31:37 IST" duration-ms="19832">
       <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@33fe57a9]" started-at="2025-07-27T23:09:09 IST" name="setUp" finished-at="2025-07-27T23:09:19 IST" duration-ms="9151" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@22d7b4f8]" started-at="2025-07-28T12:31:17 IST" name="setUp" finished-at="2025-07-28T12:31:29 IST" duration-ms="11299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,11 +59,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:testCases.TC002_LoginTest@33fe57a9]" started-at="2025-07-27T23:09:19 IST" name="testLogin" finished-at="2025-07-27T23:09:22 IST" duration-ms="3378" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:testCases.TC002_LoginTest@22d7b4f8]" started-at="2025-07-28T12:31:29 IST" name="testLogin" finished-at="2025-07-28T12:31:31 IST" duration-ms="2451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@33fe57a9]" started-at="2025-07-27T23:09:22 IST" name="tearDown" finished-at="2025-07-27T23:09:30 IST" duration-ms="8333" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@22d7b4f8]" started-at="2025-07-28T12:31:31 IST" name="tearDown" finished-at="2025-07-28T12:31:37 IST" duration-ms="6067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

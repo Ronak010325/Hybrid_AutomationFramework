@@ -1,0 +1,61 @@
+23:09:20.370 [main] INFO  testCases.TC002_LoginTest - Entering Details
+23:09:22.182 [main] INFO  testCases.TC002_LoginTest - Checking Output
+23:09:22.389 [main] INFO  testCases.TC002_LoginTest - Test Pass
+23:09:22.390 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+12:30:57.585 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\gridCrossBrowser.xml"
+12:30:58.261 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java_Selenium\OpenCart_HybridFramework\gridCrossBrowser.xml
+
+12:31:07.411 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+12:31:08.636 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+12:31:08.660 [main] INFO  testCases.TC002_LoginTest - Entering Details
+12:31:10.147 [main] INFO  testCases.TC002_LoginTest - Checking Output
+12:31:10.363 [main] INFO  testCases.TC002_LoginTest - Test Pass
+12:31:10.370 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+12:31:29.184 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+12:31:30.132 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+12:31:30.132 [main] INFO  testCases.TC002_LoginTest - Entering Details
+12:31:31.510 [main] INFO  testCases.TC002_LoginTest - Checking Output
+12:31:31.633 [main] INFO  testCases.TC002_LoginTest - Test Pass
+12:31:31.633 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+13:23:21.585 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
+13:24:51.407 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
+13:29:23.640 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
+13:30:47.979 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
+13:31:41.264 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
+13:31:56.793 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+13:31:58.787 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+13:31:58.824 [main] INFO  testCases.TC002_LoginTest - Entering Details
+13:32:00.923 [main] INFO  testCases.TC002_LoginTest - Checking Output
+13:32:01.341 [main] INFO  testCases.TC002_LoginTest - Test Pass
+13:32:01.349 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+13:38:03.157 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\gridCrossBrowser.xml"
+13:38:10.226 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+13:38:11.582 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+13:38:11.585 [main] INFO  testCases.TC002_LoginTest - Entering Details
+13:38:13.388 [main] INFO  testCases.TC002_LoginTest - Checking Output
+13:38:13.716 [main] INFO  testCases.TC002_LoginTest - Test Pass
+13:38:13.726 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+13:38:35.311 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+13:38:36.605 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+13:38:36.606 [main] INFO  testCases.TC002_LoginTest - Entering Details
+13:38:38.490 [main] INFO  testCases.TC002_LoginTest - Checking Output
+13:38:38.784 [main] INFO  testCases.TC002_LoginTest - Test Pass
+13:38:38.784 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+14:33:12.558 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\gridCrossBrowser.xml"
+14:34:05.379 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\gridCrossBrowser.xml"
+14:34:13.446 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+14:34:14.205 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+14:34:14.209 [main] INFO  testCases.TC002_LoginTest - Entering Details
+14:34:15.550 [main] INFO  testCases.TC002_LoginTest - Checking Output
+14:34:15.704 [main] INFO  testCases.TC002_LoginTest - Test Pass
+14:34:15.707 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+14:34:31.440 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+14:34:32.415 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+14:34:32.416 [main] INFO  testCases.TC002_LoginTest - Entering Details
+14:34:33.728 [main] INFO  testCases.TC002_LoginTest - Checking Output
+14:34:33.869 [main] INFO  testCases.TC002_LoginTest - Test Pass
+14:34:33.869 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+14:51:31.080 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
+14:51:36.716 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+14:51:38.268 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
