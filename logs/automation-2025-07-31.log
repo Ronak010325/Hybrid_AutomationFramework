@@ -1,0 +1,45 @@
+20:16:08.624 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:16:08.631 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:16:08.634 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:16:08.676 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+20:16:08.717 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:16:08.721 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:16:08.723 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:16:08.755 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+20:16:08.791 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:16:08.793 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:16:08.794 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:16:08.810 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+20:16:08.841 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:16:08.843 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:16:08.844 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:16:08.858 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+20:16:08.895 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Starting TC003_LoginDatadrivenTest****
+20:16:09.808 [main] INFO  testCases.TC003_LoginDatadrivenTest - Opening Login Page
+20:16:09.809 [main] INFO  testCases.TC003_LoginDatadrivenTest - Entering Details
+20:16:11.729 [main] INFO  testCases.TC003_LoginDatadrivenTest - Checking Output
+20:16:11.822 [main] INFO  testCases.TC003_LoginDatadrivenTest - Test Pass
+20:16:14.902 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Finished TC003_LoginDatadrivenTest****
+20:16:14.913 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Starting TC003_LoginDatadrivenTest****
+20:16:15.617 [main] INFO  testCases.TC003_LoginDatadrivenTest - Opening Login Page
+20:16:15.617 [main] INFO  testCases.TC003_LoginDatadrivenTest - Entering Details
+20:16:16.980 [main] INFO  testCases.TC003_LoginDatadrivenTest - Checking Output
+20:16:27.054 [main] ERROR testCases.TC003_LoginDatadrivenTest - Invalid Credentials
+20:16:27.054 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Failed TC003_LoginDatadrivenTest****
+20:16:27.240 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Starting TC003_LoginDatadrivenTest****
+20:16:27.928 [main] INFO  testCases.TC003_LoginDatadrivenTest - Opening Login Page
+20:16:27.930 [main] INFO  testCases.TC003_LoginDatadrivenTest - Entering Details
+20:16:29.599 [main] INFO  testCases.TC003_LoginDatadrivenTest - Checking Output
+20:16:39.661 [main] ERROR testCases.TC003_LoginDatadrivenTest - Invalid Credentials
+20:16:39.661 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Failed TC003_LoginDatadrivenTest****
+20:16:39.903 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Starting TC003_LoginDatadrivenTest****
+20:16:40.706 [main] INFO  testCases.TC003_LoginDatadrivenTest - Opening Login Page
+20:16:40.706 [main] INFO  testCases.TC003_LoginDatadrivenTest - Entering Details
+20:16:42.171 [main] INFO  testCases.TC003_LoginDatadrivenTest - Checking Output
+20:16:42.218 [main] INFO  testCases.TC003_LoginDatadrivenTest - Test Pass
+20:16:43.513 [main] INFO  testCases.TC003_LoginDatadrivenTest - ****Finished TC003_LoginDatadrivenTest****
+20:19:09.531 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
+20:20:26.854 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
+20:20:43.524 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+20:20:45.299 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+20:20:45.305 [main] INFO  testCases.TC002_LoginTest - Entering Details
