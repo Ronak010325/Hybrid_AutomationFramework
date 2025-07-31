@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jul 27 16:33:21 IST 2025</td>
+<td>Started on:</td><td>Tue Jul 29 14:19:02 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>18 seconds (18977 ms)</td>
+<tr><td>Total time:</td><td>100 seconds (100143 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,97 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC003_LoginDatadrivenTest.dataDrivenTest()'><b>dataDrivenTest</b><br>Test class: testCases.TC003_LoginDatadrivenTest<br>Parameters: laxmi@gmail.com, laxmi, Invalid</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_LoginDatadrivenTest.dataDrivenTest(TC003_LoginDatadrivenTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1411119464", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1411119464'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testCases.TC003_LoginDatadrivenTest.dataDrivenTest(TC003_LoginDatadrivenTest.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>14</td>
+<td>testCases.TC003_LoginDatadrivenTest@5a18cd76</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDatadrivenTest.dataDrivenTest()'><b>dataDrivenTest</b><br>Test class: testCases.TC003_LoginDatadrivenTest<br>Parameters: barvo@gmail.com, bravo, Invalid</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_LoginDatadrivenTest.dataDrivenTest(TC003_LoginDatadrivenTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1635011037", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1635011037'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testCases.TC003_LoginDatadrivenTest.dataDrivenTest(TC003_LoginDatadrivenTest.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>12</td>
+<td>testCases.TC003_LoginDatadrivenTest@5a18cd76</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +167,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testCases.TC_RF_006.testRegWithNo()'><b>testRegWithNo</b><br>Test class: testCases.TC_RF_006</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC_RF_006@3a0baae5</td></tr>
+<tr>
+<td title='testCases.TC_RF_013.testFieldPlaceholders()'><b>testFieldPlaceholders</b><br>Test class: testCases.TC_RF_013</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_RF_013@7ac0e420</td></tr>
+<tr>
+<td title='testCases.TC_RF_001.testReg()'><b>testReg</b><br>Test class: testCases.TC_RF_001</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC_RF_001@dbd8e44</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDatadrivenTest.dataDrivenTest()'><b>dataDrivenTest</b><br>Test class: testCases.TC003_LoginDatadrivenTest<br>Parameters: abc123@gmail.com, test@123, valid</td>
+<td></td>
+<td>9</td>
+<td>testCases.TC003_LoginDatadrivenTest@5a18cd76</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDatadrivenTest.dataDrivenTest()'><b>dataDrivenTest</b><br>Test class: testCases.TC003_LoginDatadrivenTest<br>Parameters: demo5231@gmail.com, demo5231, valid</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC003_LoginDatadrivenTest@5a18cd76</td></tr>
+<tr>
 <td title='testCases.TC002_LoginTest.testLogin()'><b>testLogin</b><br>Test class: testCases.TC002_LoginTest</td>
 <td></td>
-<td>5</td>
-<td>testCases.TC002_LoginTest@6f3c660a</td></tr>
+<td>1</td>
+<td>testCases.TC002_LoginTest@289710d9</td></tr>
 </table><p>
 </body>
 </html>

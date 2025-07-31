@@ -5,14 +5,14 @@
     <listener class-name="utilities.ExtentReportUtilities"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="os" value="window"/>
-    <parameter name="browser" value="Edge"/>
+    <parameter name="os" value="linux"/>
+    <parameter name="browser" value="edge"/>
     <classes>
       <class name="testCases.TC003_LoginDatadrivenTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="dataDrivenTest" invocation-numbers="1 2 3"/>
+          <include name="dataDrivenTest" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- testCases.TC003_LoginDatadrivenTest -->
     </classes>

@@ -48,13 +48,12 @@ public class TC003_LoginDatadrivenTest extends BaseTestcaseClass {
 			homObj.clickMyAccounts();
 			homObj.selectLogout();
 			logout.clickContinue();
-			logger.info("****Finished TC003_LoginDatadrivenTest****");
+			logger.info("****Failed TC003_LoginDatadrivenTest****");
 			Assert.assertTrue(false);
 		} else {
 			logger.error("Invalid Credentials");
-			logger.info("****Finished TC003_LoginDatadrivenTest****");
+			logger.info("****Failed TC003_LoginDatadrivenTest****");
 			Assert.assertTrue(false);			
 		}
-		
 	}
 }

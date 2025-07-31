@@ -1,3 +1,3 @@
 D: 
-cd Java_Selenium\OpenCart_HybridFramework
+cd OpenCart_HybridFramework
 mvn test

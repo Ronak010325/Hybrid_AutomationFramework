@@ -6,10 +6,9 @@ import pageObjects.HomePage;
 import pageObjects.RegistrationPage;
 import testBase.BaseTestcaseClass;
 
-public class TC001_AccountRegistrationTest extends BaseTestcaseClass {
+public class TC_RF_001 extends BaseTestcaseClass {
 	@Test(groups={"Regression","Master"})
 	public void testReg() throws InterruptedException {
-		try {
 			logger.info("**** Starting TC001_AccountRegistrationTest****");
 			HomePage homeObj = new HomePage(driver);
 			homeObj.clickMyAccounts();
@@ -20,7 +19,7 @@ public class TC001_AccountRegistrationTest extends BaseTestcaseClass {
 			String pass = randomPass();
 			logger.info("Passing Details");
 
-			regObj.setDetails(randomString().toUpperCase(), randomString().toUpperCase(), randomString()+"@gmail.com", randomNumber(), pass, pass, true);
+			regObj.setDetails(randomString().toUpperCase(), randomString().toUpperCase(), randomString()+"@gmail.com", randomNumber(), pass, pass, false, true);
 			Thread.sleep(5000);
 			regObj.clickRegister();
 			logger.info("Validating Message");
@@ -33,9 +32,6 @@ public class TC001_AccountRegistrationTest extends BaseTestcaseClass {
 				logger.debug("Debug Log");
 				Assert.assertTrue(false);
 			}
-		} catch (Exception e) {
-			Assert.fail();
-		}
 		logger.info("**** Finished TC001_AccountRegistrationTest****");
 	}
 }

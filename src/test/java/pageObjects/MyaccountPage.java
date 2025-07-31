@@ -11,7 +11,7 @@ public class MyaccountPage extends BasePageObjectClass{
 		super(driver);
 	}
 	
-	@FindBy(xpath="//h2[normalize-space()='My Account']") WebElement confirmation;
+	@FindBy(xpath="//h2[normalize-space()='My Account']") WebElement confirmation;	
 	
 	public boolean getConfirmation() {
 		try {

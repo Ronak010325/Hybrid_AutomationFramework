@@ -5,12 +5,14 @@
 	<listener class-name="utilities.ExtentReportUtilities"></listener>
 </listeners>
   <test name="Test">
-  	<parameter name="browser" value="chrome"/>
+  	<parameter name="browser" value="edge"/>
   	<parameter name="os" value="linux"/>
     <classes>
-      <!-- <class name="testCases.TC001_AccountRegistrationTest"/> -->
+      <class name="testCases.TC_RF_001"/>
+      <class name="testCases.TC_RF_006"/>
+      <class name="testCases.TC_RF_013"/>
       <class name="testCases.TC002_LoginTest"/>
-      <!-- <class name="testCases.TC003_LoginDatadrivenTest"/> -->
+      <class name="testCases.TC003_LoginDatadrivenTest"/>
     </classes>	
   </test>
 </suite>
