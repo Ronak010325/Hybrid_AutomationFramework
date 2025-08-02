@@ -1,3 +1,10 @@
 20:20:47.407 [main] INFO  testCases.TC002_LoginTest - Checking Output
 20:20:47.720 [main] INFO  testCases.TC002_LoginTest - Test Pass
 20:20:47.729 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+12:41:41.451 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
+12:41:50.672 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
+12:41:51.230 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
+12:41:51.263 [main] INFO  testCases.TC002_LoginTest - Entering Details
+12:41:52.348 [main] INFO  testCases.TC002_LoginTest - Checking Output
+12:41:52.414 [main] INFO  testCases.TC002_LoginTest - Test Pass
+12:41:52.420 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
