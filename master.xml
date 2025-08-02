@@ -5,19 +5,20 @@
 	<listener class-name="utilities.ExtentReportUtilities"></listener>
 </listeners>
   <test name="Test">
-  	<parameter name="browser" value="Firefox"/>
+  	<parameter name="browser" value="Chrome"/>
   	<parameter name="os" value="Linux"/>
     <classes>
-      <class name="testCases.TC_RF_001"/>
+      <!-- <class name="testCases.TC_RF_001"/>
       <class name="testCases.TC_RF_006"/>
       <class name="testCases.TC_RF_013"/>
-      <!-- <class name="testCases.TC003_LoginDatadrivenTest"/> -->
       <class name="testCases.TC_LF_001"/>
       <class name="testCases.TC_LG_001"/>
       <class name="testCases.TC_FP_001"/>
       <class name="testCases.TC_SF_001"/>
       <class name="testCases.TC_PC_001"/>
-      <class name="testCases.TC_ATC_001"/>                  
-    </classes>	
+      <class name="testCases.TC_ATC_001"/>
+      <class name="testCases.TC003_LoginDatadrivenTest"/> -->
+      <class name="testCases.Myfactory"/>      
+    </classes>
   </test>
 </suite>

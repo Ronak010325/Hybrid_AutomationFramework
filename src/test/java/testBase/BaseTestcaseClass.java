@@ -31,7 +31,7 @@ public class BaseTestcaseClass {
 	public static WebDriver driver;
 	public Logger logger;
 	public Properties prop;
-	@BeforeClass(groups= {"Sanity","Regression","Datadriven","Master"})
+	@BeforeClass(alwaysRun=true) //groups= {"Sanity","Regression","Datadriven","Master"}
 	@Parameters({"browser","os"})
 	public void setUp(String browser, String os) throws IOException {
 //		Loading Properties File
@@ -82,7 +82,7 @@ public class BaseTestcaseClass {
 		driver.get(appUrl);
 	}
 	
-	@AfterClass(groups= {"Sanity","Regression","Datadriven","Master"})
+	@AfterClass(alwaysRun=true) //groups= {"Sanity","Regression","Datadriven","Master"}
 	public void tearDown() throws InterruptedException {
 		Thread.sleep(5000);
 		driver.quit();

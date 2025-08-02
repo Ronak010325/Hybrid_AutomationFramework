@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportUtilities"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="os" value="linux"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="testCases.TC_PC_001">
+      <class name="testCases.TC003_LoginDatadriven_Factory">
         <methods>
-          <include name="testCompair"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="dataDrivenTest"/>
         </methods>
-      </class> <!-- testCases.TC_PC_001 -->
+      </class> <!-- testCases.TC003_LoginDatadriven_Factory -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

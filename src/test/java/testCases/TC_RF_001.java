@@ -7,7 +7,7 @@ import pageObjects.RegistrationPage;
 import testBase.BaseTestcaseClass;
 
 public class TC_RF_001 extends BaseTestcaseClass {
-	@Test(groups={"Regression","Master"})
+	@Test(groups={"Regression","Master"}) //enabled=false to disable the test method
 	public void testReg() throws InterruptedException {
 			logger.info("**** Starting TC_RF_001****");
 			HomePage homeObj = new HomePage(driver);

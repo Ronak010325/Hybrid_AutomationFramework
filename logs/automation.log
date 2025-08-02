@@ -1,9 +1,34 @@
-16:47:08.225 [main] INFO  testCases.TC_FP_001 - ****Finished TC_FP_001****
-16:47:20.481 [main] INFO  testCases.TC_SF_001 - ****Starting TC_SF_001****
-16:47:21.356 [main] INFO  testCases.TC_SF_001 - Checking for results
-16:47:54.003 [main] INFO  testCases.TC_ATC_001 - ****Starting TC_ATC_001****
-16:47:54.004 [main] INFO  testCases.TC_ATC_001 - Searching iMac
-16:47:54.824 [main] INFO  testCases.TC_ATC_001 - Add to Cart
-16:48:00.177 [main] INFO  testCases.TC_ATC_001 - See Cart
-16:48:00.457 [main] INFO  testCases.TC_ATC_001 - Verify Adding
-16:48:00.515 [main] INFO  testCases.TC_ATC_001 - ****Finished TC_ATC_001****
+20:57:20.825 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:57:20.829 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:57:20.849 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+20:57:20.872 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:57:20.873 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:57:20.877 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:57:20.902 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+20:57:21.239 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java_Selenium\OpenCart_HybridFramework\master.xml
+
+20:57:26.986 [main] INFO  testCases.TC003_LoginDatadriven_Factory - ****Starting TC003_LoginDatadrivenTest****
+20:57:27.677 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Opening Login Page
+20:57:27.680 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Entering Details
+20:57:28.245 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Checking Output
+20:57:38.356 [main] ERROR testCases.TC003_LoginDatadriven_Factory - Invalid Credentials
+20:57:38.357 [main] INFO  testCases.TC003_LoginDatadriven_Factory - ****Failed TC003_LoginDatadrivenTest****
+20:57:46.742 [main] INFO  testCases.TC003_LoginDatadriven_Factory - ****Starting TC003_LoginDatadrivenTest****
+20:57:47.412 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Opening Login Page
+20:57:47.414 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Entering Details
+20:57:48.078 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Checking Output
+20:57:49.103 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Test Pass
+20:57:49.104 [main] INFO  testCases.TC003_LoginDatadriven_Factory - ****Finished TC003_LoginDatadrivenTest****
+20:57:57.356 [main] INFO  testCases.TC003_LoginDatadriven_Factory - ****Starting TC003_LoginDatadrivenTest****
+20:57:57.873 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Opening Login Page
+20:57:57.875 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Entering Details
+20:57:58.625 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Checking Output
+20:57:59.579 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Test Pass
+20:57:59.579 [main] INFO  testCases.TC003_LoginDatadriven_Factory - ****Finished TC003_LoginDatadrivenTest****
+20:58:08.130 [main] INFO  testCases.TC003_LoginDatadriven_Factory - ****Starting TC003_LoginDatadrivenTest****
+20:58:08.632 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Opening Login Page
+20:58:08.632 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Entering Details
+20:58:09.344 [main] INFO  testCases.TC003_LoginDatadriven_Factory - Checking Output
+20:58:19.393 [main] ERROR testCases.TC003_LoginDatadriven_Factory - Invalid Credentials
+20:58:19.393 [main] INFO  testCases.TC003_LoginDatadriven_Factory - ****Failed TC003_LoginDatadrivenTest****

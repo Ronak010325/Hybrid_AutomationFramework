@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 
 public class Dataproviders {
 //	DataProvider 1
-	@DataProvider(name="loginData")
+	@DataProvider(name="loginData") //parallel=true
 	public Object[][] loginData() throws IOException {
 		String path = ".//testData//SampleTestData.xlsx";
 		ExcelUtilities xlObj = new ExcelUtilities(path, "Sheet1");

@@ -3,9 +3,9 @@
 <suite name="Grouping Suite">
 <groups>
 	<run>
-		<include name="Master"/>
+		<!-- <include name="Master"/> -->
 		<!-- <include name="Sanity"/> -->
-		<!-- <include name="Regression"/> -->	
+		<include name="Regression"/>	
 	</run>
 </groups>
 
@@ -17,8 +17,15 @@
   	<parameter name="browser" value="edge"/>
   	<parameter name="os" value="window"/>
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/>
-      <class name="testCases.TC002_LoginTest"/>
+      <class name="testCases.TC_RF_001"/>
+      <class name="testCases.TC_RF_006"/>
+      <class name="testCases.TC_RF_013"/>
+      <class name="testCases.TC_LF_001"/>
+      <class name="testCases.TC_LG_001"/>
+      <class name="testCases.TC_FP_001"/>
+      <class name="testCases.TC_SF_001"/>
+      <class name="testCases.TC_PC_001"/>
+      <class name="testCases.TC_ATC_001"/>
       <class name="testCases.TC003_LoginDatadrivenTest"/>
     </classes>	
   </test>
