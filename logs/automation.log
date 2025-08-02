@@ -1,10 +1,9 @@
-20:20:47.407 [main] INFO  testCases.TC002_LoginTest - Checking Output
-20:20:47.720 [main] INFO  testCases.TC002_LoginTest - Test Pass
-20:20:47.729 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
-12:41:41.451 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
-12:41:50.672 [main] INFO  testCases.TC002_LoginTest - ****Starting TC002_LoginTest****
-12:41:51.230 [main] INFO  testCases.TC002_LoginTest - Opening Login Page
-12:41:51.263 [main] INFO  testCases.TC002_LoginTest - Entering Details
-12:41:52.348 [main] INFO  testCases.TC002_LoginTest - Checking Output
-12:41:52.414 [main] INFO  testCases.TC002_LoginTest - Test Pass
-12:41:52.420 [main] INFO  testCases.TC002_LoginTest - ****Finished TC002_LoginTest****
+16:47:08.225 [main] INFO  testCases.TC_FP_001 - ****Finished TC_FP_001****
+16:47:20.481 [main] INFO  testCases.TC_SF_001 - ****Starting TC_SF_001****
+16:47:21.356 [main] INFO  testCases.TC_SF_001 - Checking for results
+16:47:54.003 [main] INFO  testCases.TC_ATC_001 - ****Starting TC_ATC_001****
+16:47:54.004 [main] INFO  testCases.TC_ATC_001 - Searching iMac
+16:47:54.824 [main] INFO  testCases.TC_ATC_001 - Add to Cart
+16:48:00.177 [main] INFO  testCases.TC_ATC_001 - See Cart
+16:48:00.457 [main] INFO  testCases.TC_ATC_001 - Verify Adding
+16:48:00.515 [main] INFO  testCases.TC_ATC_001 - ****Finished TC_ATC_001****

@@ -17,7 +17,8 @@ public class HomePage extends BasePageObjectClass {
 	@FindBy(xpath="//a[normalize-space()='Register']") WebElement nav_Reg_Btn;
 	@FindBy(xpath="//a[normalize-space()='Login']") WebElement nav_log_Btn;
 	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']") WebElement nav_logout_Btn;
-	
+	@FindBy(xpath="//input[@placeholder='Search']") WebElement search_field;
+	@FindBy(xpath="//button[@class='btn btn-default btn-lg']") WebElement search_btn;
 	
 //	Actions
 	public void clickMyAccounts() {
@@ -34,6 +35,19 @@ public class HomePage extends BasePageObjectClass {
 	
 	public void selectLogout() {
 		nav_logout_Btn.click();
+	}
+	
+	public boolean isLogoutPresent() {
+		try {			
+			return nav_logout_Btn.isDisplayed();
+		} catch(Exception e) {
+			return false;
+		}
+	}
+	
+	public void searchProduct(String product) {
+		search_field.sendKeys(product);
+		search_btn.click();
 	}
 	
 }

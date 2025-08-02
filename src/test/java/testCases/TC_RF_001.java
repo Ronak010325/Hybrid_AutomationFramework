@@ -9,7 +9,7 @@ import testBase.BaseTestcaseClass;
 public class TC_RF_001 extends BaseTestcaseClass {
 	@Test(groups={"Regression","Master"})
 	public void testReg() throws InterruptedException {
-			logger.info("**** Starting TC001_AccountRegistrationTest****");
+			logger.info("**** Starting TC_RF_001****");
 			HomePage homeObj = new HomePage(driver);
 			homeObj.clickMyAccounts();
 			logger.info("Clicked in Register Btn");
@@ -32,6 +32,6 @@ public class TC_RF_001 extends BaseTestcaseClass {
 				logger.debug("Debug Log");
 				Assert.assertTrue(false);
 			}
-		logger.info("**** Finished TC001_AccountRegistrationTest****");
+		logger.info("**** Finished TC_RF_001****");
 	}
 }

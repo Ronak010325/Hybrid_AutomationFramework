@@ -8,10 +8,10 @@ import pageObjects.LoginPage;
 import pageObjects.MyaccountPage;
 import testBase.BaseTestcaseClass;
 
-public class TC002_LoginTest extends BaseTestcaseClass {
+public class TC_LF_001 extends BaseTestcaseClass {
 	@Test(groups={"Sanity","Master"})
 	public void testLogin() {
-		logger.info("****Starting TC002_LoginTest****");
+		logger.info("****Starting TC_LF_001****");
 //		Home Page
 		HomePage homObj = new HomePage(driver);
 		homObj.clickMyAccounts();
@@ -36,6 +36,6 @@ public class TC002_LoginTest extends BaseTestcaseClass {
 			logger.error("Invalid Credentials");
 			Assert.assertTrue(false);			
 		}
-		logger.info("****Finished TC002_LoginTest****");
+		logger.info("****Finished TC_LF_001****");
 	}
 }

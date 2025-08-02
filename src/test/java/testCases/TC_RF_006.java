@@ -11,7 +11,7 @@ import testBase.BaseTestcaseClass;
 public class TC_RF_006 extends BaseTestcaseClass {
 	@Test
 	public void testRegWithNo() throws InterruptedException {
-		logger.info("**** Starting TC_RF_002****");
+		logger.info("**** Starting TC_RF_006****");
 		HomePage homeObj = new HomePage(driver);
 		homeObj.clickMyAccounts();
 		logger.info("Clicked in Register Btn");
@@ -38,7 +38,7 @@ public class TC_RF_006 extends BaseTestcaseClass {
 			logger.error("Error Log");
 			logger.debug("Debug Log");
 			Assert.assertTrue(false);
-			logger.info("**** Finished TC_RF_002****");
+			logger.info("**** Finished TC_RF_006****");
 		}
 	}
 }

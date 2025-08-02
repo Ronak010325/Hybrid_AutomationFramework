@@ -1,43 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-02T12:41:41 IST" name="Master Suite" finished-at="2025-08-02T12:41:58 IST" duration-ms="16837">
+  <suite started-at="2025-08-02T16:45:12 IST" name="Master Suite" finished-at="2025-08-02T16:48:06 IST" duration-ms="173929">
     <groups>
       <group name="Master">
-        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@363a52f]" name="testLogin" class="testCases.TC002_LoginTest"/>
+        <method signature="TC_LF_001.testLogin()[pri:0, instance:testCases.TC_LF_001@4b41dd5c]" name="testLogin" class="testCases.TC_LF_001"/>
+        <method signature="TC_RF_001.testReg()[pri:0, instance:testCases.TC_RF_001@6ccdb29f]" name="testReg" class="testCases.TC_RF_001"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@363a52f]" name="testLogin" class="testCases.TC002_LoginTest"/>
+        <method signature="TC_LF_001.testLogin()[pri:0, instance:testCases.TC_LF_001@4b41dd5c]" name="testLogin" class="testCases.TC_LF_001"/>
       </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_RF_001.testReg()[pri:0, instance:testCases.TC_RF_001@6ccdb29f]" name="testReg" class="testCases.TC_RF_001"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-08-02T12:41:41 IST" name="Test" finished-at="2025-08-02T12:41:58 IST" duration-ms="16837">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@363a52f]" started-at="2025-08-02T12:41:42 IST" name="setUp" finished-at="2025-08-02T12:41:50 IST" duration-ms="8256" status="PASS">
+    <test started-at="2025-08-02T16:45:12 IST" name="Test" finished-at="2025-08-02T16:48:06 IST" duration-ms="173929">
+      <class name="testCases.TC_SF_001">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_001@1e461e41]" started-at="2025-08-02T16:47:14 IST" name="setUp" finished-at="2025-08-02T16:47:20 IST" duration-ms="6043" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[Firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[linux]]>
+                <![CDATA[Linux]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:testCases.TC002_LoginTest@363a52f]" started-at="2025-08-02T12:41:50 IST" name="testLogin" finished-at="2025-08-02T12:41:52 IST" duration-ms="1756" status="PASS">
+        <test-method signature="testSearch()[pri:0, instance:testCases.TC_SF_001@1e461e41]" started-at="2025-08-02T16:47:20 IST" name="testSearch" finished-at="2025-08-02T16:47:21 IST" duration-ms="972" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@363a52f]" started-at="2025-08-02T12:41:52 IST" name="tearDown" finished-at="2025-08-02T12:41:58 IST" duration-ms="6332" status="PASS">
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_001@1e461e41]" started-at="2025-08-02T16:47:21 IST" name="tearDown" finished-at="2025-08-02T16:47:27 IST" duration-ms="6304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
+      </class> <!-- testCases.TC_SF_001 -->
+      <class name="testCases.TC_FP_001">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_FP_001@5d066c7d]" started-at="2025-08-02T16:46:58 IST" name="setUp" finished-at="2025-08-02T16:47:04 IST" duration-ms="5965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForgetLink()[pri:0, instance:testCases.TC_FP_001@5d066c7d]" started-at="2025-08-02T16:47:04 IST" name="testForgetLink" finished-at="2025-08-02T16:47:08 IST" duration-ms="3302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgetLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_FP_001@5d066c7d]" started-at="2025-08-02T16:47:08 IST" name="tearDown" finished-at="2025-08-02T16:47:14 IST" duration-ms="6187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_FP_001 -->
+      <class name="testCases.TC_LF_001">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_001@4b41dd5c]" started-at="2025-08-02T16:46:16 IST" name="setUp" finished-at="2025-08-02T16:46:22 IST" duration-ms="5819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:testCases.TC_LF_001@4b41dd5c]" started-at="2025-08-02T16:46:22 IST" name="testLogin" finished-at="2025-08-02T16:46:24 IST" duration-ms="2176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_001@4b41dd5c]" started-at="2025-08-02T16:46:24 IST" name="tearDown" finished-at="2025-08-02T16:46:30 IST" duration-ms="6291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LF_001 -->
+      <class name="testCases.TC_LG_001">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LG_001@3b96c42e]" started-at="2025-08-02T16:46:30 IST" name="setUp" finished-at="2025-08-02T16:46:36 IST" duration-ms="5513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogout()[pri:0, instance:testCases.TC_LG_001@3b96c42e]" started-at="2025-08-02T16:46:36 IST" name="testLogout" finished-at="2025-08-02T16:46:52 IST" duration-ms="16342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LG_001@3b96c42e]" started-at="2025-08-02T16:46:52 IST" name="tearDown" finished-at="2025-08-02T16:46:58 IST" duration-ms="6300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LG_001 -->
+      <class name="testCases.TC_RF_006">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_006@a3d9978]" started-at="2025-08-02T16:45:42 IST" name="setUp" finished-at="2025-08-02T16:45:47 IST" duration-ms="5311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegWithNo()[pri:0, instance:testCases.TC_RF_006@a3d9978]" started-at="2025-08-02T16:45:47 IST" name="testRegWithNo" finished-at="2025-08-02T16:45:57 IST" duration-ms="9581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegWithNo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_006@a3d9978]" started-at="2025-08-02T16:45:57 IST" name="tearDown" finished-at="2025-08-02T16:46:03 IST" duration-ms="6309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_006 -->
+      <class name="testCases.TC_PC_001">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_PC_001@5ba88be8]" started-at="2025-08-02T16:47:27 IST" name="setUp" finished-at="2025-08-02T16:47:33 IST" duration-ms="5995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompair()[pri:0, instance:testCases.TC_PC_001@5ba88be8]" started-at="2025-08-02T16:47:33 IST" name="testCompair" finished-at="2025-08-02T16:47:42 IST" duration-ms="8344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompair -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_PC_001@5ba88be8]" started-at="2025-08-02T16:47:42 IST" name="tearDown" finished-at="2025-08-02T16:47:48 IST" duration-ms="6477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_PC_001 -->
+      <class name="testCases.TC_RF_013">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_013@61544ae6]" started-at="2025-08-02T16:46:03 IST" name="setUp" finished-at="2025-08-02T16:46:08 IST" duration-ms="5388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFieldPlaceholders()[pri:0, instance:testCases.TC_RF_013@61544ae6]" started-at="2025-08-02T16:46:08 IST" name="testFieldPlaceholders" finished-at="2025-08-02T16:46:10 IST" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldPlaceholders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_013@61544ae6]" started-at="2025-08-02T16:46:10 IST" name="tearDown" finished-at="2025-08-02T16:46:16 IST" duration-ms="6202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_013 -->
+      <class name="testCases.TC_ATC_001">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ATC_001@56928307]" started-at="2025-08-02T16:47:48 IST" name="setUp" finished-at="2025-08-02T16:47:54 IST" duration-ms="5418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCart()[pri:0, instance:testCases.TC_ATC_001@56928307]" started-at="2025-08-02T16:47:54 IST" name="testCart" finished-at="2025-08-02T16:48:00 IST" duration-ms="6514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_ATC_001@56928307]" started-at="2025-08-02T16:48:00 IST" name="tearDown" finished-at="2025-08-02T16:48:06 IST" duration-ms="6122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_ATC_001 -->
+      <class name="testCases.TC_RF_001">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_001@6ccdb29f]" started-at="2025-08-02T16:45:13 IST" name="setUp" finished-at="2025-08-02T16:45:25 IST" duration-ms="12042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testReg()[pri:0, instance:testCases.TC_RF_001@6ccdb29f]" started-at="2025-08-02T16:45:25 IST" name="testReg" finished-at="2025-08-02T16:45:35 IST" duration-ms="10407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_001@6ccdb29f]" started-at="2025-08-02T16:45:35 IST" name="tearDown" finished-at="2025-08-02T16:45:42 IST" duration-ms="6347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_001 -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

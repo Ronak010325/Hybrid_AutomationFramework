@@ -1,0 +1,70 @@
+16:39:42.242 [main] INFO  testCases.TC_RF_001 - Passing Details
+16:39:49.250 [main] INFO  testCases.TC_RF_001 - Validating Message
+16:39:49.299 [main] INFO  testCases.TC_RF_001 - **** Finished TC_RF_001****
+16:39:56.888 [main] INFO  testCases.TC_RF_006 - **** Starting TC_RF_006****
+16:39:57.013 [main] INFO  testCases.TC_RF_006 - Clicked in Register Btn
+16:39:57.406 [main] INFO  testCases.TC_RF_006 - Passing Details
+16:40:07.188 [main] INFO  testCases.TC_RF_006 - Going to the NewsLetter Page
+16:40:07.729 [main] INFO  testCases.TC_RF_006 - No is Selected
+16:40:07.730 [main] INFO  testCases.TC_RF_006 - **** Finished TC_RF_002****
+16:40:15.097 [main] INFO  testCases.TC_RF_013 - ****Starting TC_RF_013****
+16:40:15.596 [main] INFO  testCases.TC_RF_013 - Opened Registration Page
+16:40:15.600 [main] INFO  testCases.TC_RF_013 - Getting Input Fields Placeholders
+16:40:15.821 [main] INFO  testCases.TC_RF_013 - Validating inputs
+16:40:22.813 [main] INFO  testCases.TC_LF_001 - ****Starting TC_LF_001****
+16:40:23.743 [main] INFO  testCases.TC_LF_001 - Opening Login Page
+16:40:23.761 [main] INFO  testCases.TC_LF_001 - Entering Details
+16:40:24.255 [main] INFO  testCases.TC_LF_001 - Checking Output
+16:40:25.005 [main] INFO  testCases.TC_LF_001 - Test Pass
+16:40:25.006 [main] INFO  testCases.TC_LF_001 - ****Finished TC_LF_001****
+16:40:32.334 [main] INFO  testCases.TC_LG_001 - ****Starting TC_LG_001****
+16:40:32.761 [main] INFO  testCases.TC_LG_001 - Opening Login Page
+16:40:32.762 [main] INFO  testCases.TC_LG_001 - Entering Details
+16:40:47.708 [main] INFO  testCases.TC_LG_001 - Checking Output
+16:40:47.708 [main] INFO  testCases.TC_LG_001 - ****Finished TC_LG_001****
+16:40:55.375 [main] INFO  testCases.TC_FP_001 - ****Starting TC_FP_001****
+16:40:55.808 [main] INFO  testCases.TC_FP_001 - Opening Login Page
+16:40:55.809 [main] INFO  testCases.TC_FP_001 - Clicking on Forget Password
+16:40:56.247 [main] INFO  testCases.TC_FP_001 - Entering Email
+16:40:56.558 [main] INFO  testCases.TC_FP_001 - Checking Results
+16:40:57.912 [main] INFO  testCases.TC_FP_001 - ****Finished TC_FP_001****
+16:41:05.392 [main] INFO  testCases.TC_SF_001 - ****Starting TC_SF_001****
+16:41:05.864 [main] INFO  testCases.TC_SF_001 - Checking for results
+16:41:28.830 [main] INFO  testCases.TC_ATC_001 - ****Starting TC_ATC_001****
+16:41:28.831 [main] INFO  testCases.TC_ATC_001 - Searching iMac
+16:41:29.312 [main] INFO  testCases.TC_ATC_001 - Add to Cart
+16:41:34.474 [main] INFO  testCases.TC_ATC_001 - See Cart
+16:41:34.623 [main] INFO  testCases.TC_ATC_001 - Verify Adding
+16:41:34.666 [main] INFO  testCases.TC_ATC_001 - ****Finished TC_ATC_001****
+16:45:12.171 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Java_Selenium\OpenCart_HybridFramework\master.xml"
+16:45:25.344 [main] INFO  testCases.TC_RF_001 - **** Starting TC_RF_001****
+16:45:25.991 [main] INFO  testCases.TC_RF_001 - Clicked in Register Btn
+16:45:26.934 [main] INFO  testCases.TC_RF_001 - Passing Details
+16:45:35.625 [main] INFO  testCases.TC_RF_001 - Validating Message
+16:45:35.735 [main] INFO  testCases.TC_RF_001 - **** Finished TC_RF_001****
+16:45:47.446 [main] INFO  testCases.TC_RF_006 - **** Starting TC_RF_006****
+16:45:48.197 [main] INFO  testCases.TC_RF_006 - Clicked in Register Btn
+16:45:49.075 [main] INFO  testCases.TC_RF_006 - Passing Details
+16:45:56.501 [main] INFO  testCases.TC_RF_006 - Going to the NewsLetter Page
+16:45:57.020 [main] INFO  testCases.TC_RF_006 - No is Selected
+16:45:57.021 [main] INFO  testCases.TC_RF_006 - **** Finished TC_RF_002****
+16:46:08.736 [main] INFO  testCases.TC_RF_013 - ****Starting TC_RF_013****
+16:46:09.819 [main] INFO  testCases.TC_RF_013 - Opened Registration Page
+16:46:09.820 [main] INFO  testCases.TC_RF_013 - Getting Input Fields Placeholders
+16:46:10.313 [main] INFO  testCases.TC_RF_013 - Validating inputs
+16:46:22.345 [main] INFO  testCases.TC_LF_001 - ****Starting TC_LF_001****
+16:46:23.266 [main] INFO  testCases.TC_LF_001 - Opening Login Page
+16:46:23.271 [main] INFO  testCases.TC_LF_001 - Entering Details
+16:46:24.413 [main] INFO  testCases.TC_LF_001 - Checking Output
+16:46:24.519 [main] INFO  testCases.TC_LF_001 - Test Pass
+16:46:24.519 [main] INFO  testCases.TC_LF_001 - ****Finished TC_LF_001****
+16:46:36.332 [main] INFO  testCases.TC_LG_001 - ****Starting TC_LG_001****
+16:46:37.082 [main] INFO  testCases.TC_LG_001 - Opening Login Page
+16:46:37.083 [main] INFO  testCases.TC_LG_001 - Entering Details
+16:46:52.672 [main] INFO  testCases.TC_LG_001 - Checking Output
+16:46:52.672 [main] INFO  testCases.TC_LG_001 - ****Finished TC_LG_001****
+16:47:04.945 [main] INFO  testCases.TC_FP_001 - ****Starting TC_FP_001****
+16:47:05.820 [main] INFO  testCases.TC_FP_001 - Opening Login Page
+16:47:05.824 [main] INFO  testCases.TC_FP_001 - Clicking on Forget Password
+16:47:06.218 [main] INFO  testCases.TC_FP_001 - Entering Email
+16:47:08.098 [main] INFO  testCases.TC_FP_001 - Checking Results
